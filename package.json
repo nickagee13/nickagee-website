@@ -10,17 +10,22 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "format": "prettier --write ."
   },
-  "keywords": ["portfolio", "website", "personal"],
+  "keywords": [
+    "portfolio",
+    "website",
+    "personal"
+  ],
   "author": "Nick Agee",
   "license": "MIT",
   "devDependencies": {
-    "vite": "^5.0.0",
     "eslint": "^8.0.0",
-    "prettier": "^3.0.0"
+    "prettier": "^3.0.0",
+    "vite": "^5.0.0"
   },
   "dependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@vitejs/plugin-react": "^4.0.0"
+    "react-router-dom": "^7.8.2"
   }
 }
