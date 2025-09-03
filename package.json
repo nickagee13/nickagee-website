@@ -1,0 +1,26 @@
+{
+  "name": "nickagee-website",
+  "version": "1.0.0",
+  "description": "Personal website for Nick Agee",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "format": "prettier --write ."
+  },
+  "keywords": ["portfolio", "website", "personal"],
+  "author": "Nick Agee",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.0.0"
+  }
+}
