@@ -124,7 +124,7 @@
 .hero-section {
   position: relative;
   padding: 0;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .hero-image-container {
@@ -174,7 +174,7 @@
 
 /* Album Grid */
 .album-grid-section {
-  padding: 60px 0;
+  padding: 40px 0;
   background-color: var(--bg-primary);
 }
 
@@ -245,7 +245,7 @@
 
 /* Testimonials */
 .testimonials-section {
-  padding: 60px 0 80px 0;
+  padding: 40px 0 50px 0;
   background-color: var(--bg-secondary);
 }
 
@@ -353,7 +353,7 @@
 
 /* Music Player */
 .music-player-section {
-  padding: 80px 0 40px 0;
+  padding: 50px 0 40px 0;
   background-color: var(--bg-primary);
 }
 
