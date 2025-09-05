@@ -6,134 +6,138 @@ const AudioPostProduction = () => {
       <div className="container">
         {/* Header Section */}
         <div className="page-header">
-          <div className="header-background">
-            <div className="header-text">
-              <h1>Audio Post-Production</h1>
-              <p>Professional audio services for film, television, podcasts, and digital media.</p>
+          <h1>AUDIO POST-PRODUCTION</h1>
+          <div className="header-description">
+            <p>
+              Over the past decade, Nick has contributed to 500+ productions, spanning music, film, TV, branded 
+              content, and podcasting. His work has been featured on Billboard, TIME, Entertainment Weekly, 
+              Huffington Post, and NME.
+            </p>
+            <p>Below are select examples of previous work:</p>
+          </div>
+        </div>
+
+        {/* Section 1: Voiceover & Score Mixing - Breakthrough For Men */}
+        <div className="content-row">
+          <div className="video-section">
+            <div className="video-embed">
+              <iframe 
+                width="100%" 
+                height="315" 
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                title="The Big Picture from ..."
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className="video-embed">
+              <iframe 
+                width="100%" 
+                height="315" 
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                title="John Hain from The P..."
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+          <div className="text-section">
+            <h2>Voiceover & Score Mixing<br/>Breakthrough For Men</h2>
+            <p>
+              Captured and edited on-set dialogue, then mixed with underscore to 
+              enhance the emotional tone of the visuals. Edited B-roll with interview 
+              shots through video editing to visually reinforce the audio narrative. 
+              Part of a video series I co-produced for Breakthrough for Men.
+            </p>
+          </div>
+        </div>
+
+        {/* Section 2: Podcast Audio Editing & Mixing - Hotchi Motchi MTG */}
+        <div className="content-row">
+          <div className="text-section">
+            <h2>Podcast Audio Editing & Mixing<br/>Hotchi Motchi MTG</h2>
+            <p>
+              Collaborated with producers, hosts, and the video editor to elevate 
+              podcast audio recorded in a sub-optimal environment to a 
+              professional standard through detailed editing and mixing. This 
+              example from episode #3 showcases the dialogue before and after 
+              processing.
+            </p>
+          </div>
+          <div className="video-section">
+            <div className="video-embed">
+              <iframe 
+                width="100%" 
+                height="315" 
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                title="Hotchi Motchi MTG"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
             </div>
           </div>
         </div>
 
-        {/* Content Sections */}
-        <div className="content-sections">
-          
-          {/* Section 1: Two YouTube videos with text on right */}
-          <div className="content-row">
-            <div className="video-group">
-              <div className="video-embed">
-                <div className="video-placeholder">
-                  {/* Replace with actual YouTube embed */}
-                  <p>YouTube Video 1</p>
-                  {/* 
-                  <iframe 
-                    width="100%" 
-                    height="315" 
-                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
-                    frameBorder="0" 
-                    allowFullScreen
-                  ></iframe>
-                  */}
-                </div>
-              </div>
-              <div className="video-embed">
-                <div className="video-placeholder">
-                  {/* Replace with actual YouTube embed */}
-                  <p>YouTube Video 2</p>
-                </div>
-              </div>
-            </div>
-            <div className="text-content">
-              <h3>Professional Audio Mixing</h3>
-              <p>
-                Our audio mixing services ensure your content sounds professional and polished. 
-                From dialogue cleanup to music balance, we handle every aspect of your audio 
-                post-production needs.
-              </p>
-              <p>
-                Using industry-standard tools and techniques, we deliver broadcast-quality 
-                results that meet the highest professional standards.
-              </p>
+        {/* Section 3: Voiceover & Score Mixing - National Organization for Medical Intuition */}
+        <div className="content-row">
+          <div className="video-section">
+            <div className="video-embed">
+              <iframe 
+                width="100%" 
+                height="315" 
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                title="National Organization for Medical Intuition"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
             </div>
           </div>
+          <div className="text-section">
+            <h2>Voiceover & Score Mixing<br/>National Organization for Medical Intuition</h2>
+            <p>
+              Edited and mixed multiple voiceover recordings with underscore music 
+              to create a polished final audio mix that complements the professional 
+              visuals of the video. I was also tasked with video editing to seamlessly 
+              integrating the company's branding with stock imagery to convey 
+              NOMI's core values.
+            </p>
+          </div>
+        </div>
 
-          {/* Section 2: Video on right with text on left */}
-          <div className="content-row reverse">
-            <div className="text-content">
-              <h3>Sound Design & Effects</h3>
-              <p>
-                Custom sound design and audio effects bring your projects to life. Whether 
-                you need atmospheric sounds, Foley work, or creative audio elements, we 
-                create the perfect sonic landscape for your content.
-              </p>
-              <p>
-                Our sound design process focuses on enhancing the emotional impact of your 
-                story while maintaining clarity and professionalism.
-              </p>
+        {/* Section 4: Voiceover & Score Mixing - Nurses & The Lost Year */}
+        <div className="content-row">
+          <div className="text-section">
+            <h2>Voiceover & Score Mixing<br/>Nurses & The Lost Year</h2>
+            <p>
+              Captured and edited Voiceover dialogue, then mixed with 
+              underscore to enhance the emotional tone of the visuals. Edited 
+              stock footage through video editing to visually reinforce the audio 
+              narrative. Part of a video series I produced for Director Donn 
+              Wilkerson.
+            </p>
+          </div>
+          <div className="video-section">
+            <div className="video-embed">
+              <iframe 
+                width="100%" 
+                height="315" 
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                title="Nurses & The Lost Year"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
             </div>
-            <div className="video-single">
-              <div className="video-embed">
-                <div className="video-placeholder">
-                  {/* Replace with actual YouTube embed */}
-                  <p>YouTube Video 3</p>
-                </div>
-              </div>
+            <div className="video-embed">
+              <iframe 
+                width="100%" 
+                height="315" 
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                title="Nurses & The Lost Year - Part 2"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
             </div>
           </div>
-
-          {/* Section 3: Video with text on right */}
-          <div className="content-row">
-            <div className="video-single">
-              <div className="video-embed">
-                <div className="video-placeholder">
-                  {/* Replace with actual YouTube embed */}
-                  <p>YouTube Video 4</p>
-                </div>
-              </div>
-            </div>
-            <div className="text-content">
-              <h3>Dialogue Enhancement</h3>
-              <p>
-                Clear, crisp dialogue is essential for any audio project. Our dialogue 
-                enhancement services include noise reduction, EQ optimization, and 
-                compression to ensure every word is heard clearly.
-              </p>
-              <p>
-                We specialize in salvaging difficult recordings and making them 
-                broadcast-ready through advanced restoration techniques.
-              </p>
-            </div>
-          </div>
-
-          {/* Section 4: Videos on right with text on left */}
-          <div className="content-row reverse">
-            <div className="text-content">
-              <h3>Final Mix & Mastering</h3>
-              <p>
-                The final mix brings all elements together in perfect balance. Our mastering 
-                process ensures your audio translates well across all playback systems, 
-                from mobile devices to professional speakers.
-              </p>
-              <p>
-                We deliver your final audio in any format you need, optimized for your 
-                specific distribution platform and technical requirements.
-              </p>
-            </div>
-            <div className="video-group">
-              <div className="video-embed">
-                <div className="video-placeholder">
-                  {/* Replace with actual YouTube embed */}
-                  <p>YouTube Video 5</p>
-                </div>
-              </div>
-              <div className="video-embed">
-                <div className="video-placeholder">
-                  {/* Replace with actual YouTube embed */}
-                  <p>YouTube Video 6</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
     </div>
