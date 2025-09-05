@@ -4,7 +4,7 @@ import album2 from '../assets/album-art/2-Red Hot Chili Peppers - The Getaway 20
 import album3 from '../assets/album-art/3. Cody Simpson - B-Sides 2019 Assistant Engineer.jpg'
 import album4 from '../assets/album-art/4. DAISY - Smoke About It 2016 Engineer:Mix Engineer.jpg'
 import album5 from '../assets/album-art/5. dae zhen - Fontana 2018 Co-Producer, Engineer, Guitar, Mix Engineer.jpg'
-import album6 from '../assets/album-art/6. Motörhead - Bad Magic 2015 Assistant Engineer.jpg'
+import album6 from '../assets/album-art/6. Motorhead - Bad Magic 2015 Assistant Engineer.jpg'
 import album7 from '../assets/album-art/7. Forza Motorsport 7 2019 Assistant Engineer.jpg'
 import album8 from '../assets/album-art/8. Falling In Reverse - Coming Home 2017 Assistant Engineer.jpg'
 import album9 from '../assets/album-art/9. Blues Traveler - Blow Up The Moon 2015 Assistant Engineer.jpg'
