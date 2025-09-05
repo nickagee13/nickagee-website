@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { albumImages } from '../utils/albumImages'
 
 const AlbumGrid = () => {
   const [currentSet, setCurrentSet] = useState(0)
@@ -75,7 +76,7 @@ const AlbumGrid = () => {
               onMouseLeave={() => setHoveredAlbum(null)}
             >
               <img
-                src={`/src/assets/${album.image}`}
+                src={albumImages[album.id] || `data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCiAgPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0iI2YwZjBmMCIvPg0KICA8dGV4dCB4PSI1MCUiIHk9IjUwJSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzk5OSI+QWxidW0gQXJ0PC90ZXh0Pg0KPC9zdmc+`}
                 alt={`${album.artist} - ${album.album}`}
                 onError={(e) => {
                   // Placeholder for missing images
