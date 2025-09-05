@@ -415,7 +415,7 @@
 .about-image img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 28px;
 }
 
 .about-text h1 {
@@ -429,6 +429,10 @@
   font-size: 16px;
   line-height: 1.7;
   margin-bottom: 40px;
+}
+
+.about-description p:first-child {
+  font-weight: 600;
 }
 
 .certifications h3 {

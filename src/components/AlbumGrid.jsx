@@ -73,8 +73,8 @@ const AlbumGrid = () => {
         <div className="album-info">
           {hoveredAlbum ? (
             <div className="album-details">
-              <h3>{hoveredAlbum.artist}</h3>
-              <p>{hoveredAlbum.album} ({hoveredAlbum.year})</p>
+              <h3 style={{ fontFamily: 'Suez One, serif' }}>{hoveredAlbum.artist}</h3>
+              <p style={{ fontFamily: 'Suez One, serif' }}>{hoveredAlbum.album} ({hoveredAlbum.year})</p>
               <span className="credit">{hoveredAlbum.credit}</span>
             </div>
           ) : (

@@ -13,61 +13,50 @@ const About = () => {
           </div>
           
           <div className="about-text">
-            <h1>About Nick Agee</h1>
+            <h1 style={{ fontFamily: 'Suez One, serif' }}>About</h1>
             <div className="about-description">
               <p>
-                With over [X] years of experience in audio engineering and music production, 
-                I bring technical expertise and creative vision to every project. My passion 
-                for sound design and mixing has led me to work with artists across various 
-                genres, from indie rock to electronic music.
+                Nick Agee is an Avid and Dolby certified audio engineer based in Los Angeles, CA. 
+                With over 14 years of experience working alongside Grammy Award-winning artists 
+                and producers, he has a deep understanding of music production workflows from 
+                recording to distribution and release.
               </p>
               
               <p>
-                My studio is equipped with industry-standard gear and acoustically treated 
-                to ensure the highest quality recordings and mixes. I believe in collaborating 
-                closely with artists to understand their vision and bring their musical ideas 
-                to life.
+                Believing in the power of music as a deeply emotional and collaborative process, 
+                Nick ensures that every final mix captures the essence of the artist's performance. 
+                By enhancing clarity, depth, and energy, each mix is crafted to resonate with 
+                listeners, evoking the same emotions felt during recording and writing.
               </p>
               
               <p>
-                Whether you're looking for mixing, mastering, or full production services, 
-                I'm committed to delivering professional results that exceed your expectations. 
-                Every project receives my full attention to detail and creative input.
+                Specializing in indie pop and bedroom pop, Nick draws inspiration from r&b, jazz, 
+                and funk, blending these influences in fresh and modern ways. With a commitment 
+                to understanding each artist's creative vision, he works to translate inspiration 
+                into sonically rich and immersive mixes.
               </p>
             </div>
             
             <div className="certifications">
-              <h3>Certifications & Training</h3>
               <div className="certification-logos">
-                {/* Placeholder for certification logos */}
                 <div className="cert-logo">
                   <img 
-                    src="/src/assets/cert-logo-1.png" 
-                    alt="Certification 1"
-                    onError={(e) => {
-                      e.target.style.display = 'none'
-                    }}
+                    src="/src/assets/Logos/avidcertified.png" 
+                    alt="Avid Certified Professional"
                   />
                 </div>
                 <div className="cert-logo">
                   <img 
-                    src="/src/assets/cert-logo-2.png" 
-                    alt="Certification 2"
-                    onError={(e) => {
-                      e.target.style.display = 'none'
-                    }}
+                    src="/src/assets/Logos/applecert.jpg" 
+                    alt="Apple Certified Professional"
                   />
                 </div>
                 <div className="cert-logo">
                   <img 
-                    src="/src/assets/cert-logo-3.png" 
-                    alt="Certification 3"
-                    onError={(e) => {
-                      e.target.style.display = 'none'
-                    }}
+                    src="/src/assets/Logos/dolbyatmos.png" 
+                    alt="Dolby Atmos Certified"
                   />
                 </div>
-                {/* Add more certification logos as needed */}
               </div>
             </div>
           </div>

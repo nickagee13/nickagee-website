@@ -16,7 +16,7 @@ const HeroSection = () => {
         />
         <div className="hero-buttons">
           <Link to="/about" className="btn-hero btn-about">
-            ABOUT ME
+            ABOUT
           </Link>
           <button onClick={handleBookClick} className="btn-hero btn-book">
             BOOK NOW
