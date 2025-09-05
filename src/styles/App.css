@@ -681,6 +681,14 @@
     text-align: center;
   }
   
+  .hero-section {
+    margin-bottom: 20px;
+  }
+  
+  .album-grid-section {
+    padding: 20px 0;
+  }
+  
   .testimonials-section {
     padding: 20px 0 0 0;
   }
