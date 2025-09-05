@@ -682,7 +682,11 @@
   }
   
   .testimonial-slide {
-    padding: 0 20px;
+    padding: 0 10px;
+  }
+  
+  .testimonial-content {
+    margin: 0 5px;
   }
   
   .slider-arrow {
