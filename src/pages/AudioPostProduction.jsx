@@ -24,8 +24,8 @@ const AudioPostProduction = () => {
               <iframe 
                 width="100%" 
                 height="315" 
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-                title="The Big Picture from ..."
+                src="https://www.youtube.com/embed/7OY1zB-cINQ" 
+                title="Breakthrough For Men Video 1"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
@@ -34,8 +34,8 @@ const AudioPostProduction = () => {
               <iframe 
                 width="100%" 
                 height="315" 
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-                title="John Hain from The P..."
+                src="https://www.youtube.com/embed/Ow_MAwSFHjk" 
+                title="Breakthrough For Men Video 2"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
