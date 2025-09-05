@@ -1,4 +1,8 @@
 import React from 'react'
+import studioImage from '../assets/gmr studio.jpg'
+import avidCert from '../assets/Logos/avidcertified.png'
+import appleCert from '../assets/Logos/applecert.jpg'
+import dolbyCert from '../assets/Logos/dolbyatmos.png'
 
 const About = () => {
   return (
@@ -7,7 +11,7 @@ const About = () => {
         <div className="about-content">
           <div className="about-image">
             <img 
-              src="/src/assets/gmr studio.jpg" 
+              src={studioImage} 
               alt="Nick Agee working in the studio" 
             />
           </div>
@@ -41,19 +45,19 @@ const About = () => {
               <div className="certification-logos">
                 <div className="cert-logo">
                   <img 
-                    src="/src/assets/Logos/avidcertified.png" 
+                    src={avidCert} 
                     alt="Avid Certified Professional"
                   />
                 </div>
                 <div className="cert-logo">
                   <img 
-                    src="/src/assets/Logos/applecert.jpg" 
+                    src={appleCert} 
                     alt="Apple Certified Professional"
                   />
                 </div>
                 <div className="cert-logo">
                   <img 
-                    src="/src/assets/Logos/dolbyatmos.png" 
+                    src={dolbyCert} 
                     alt="Dolby Atmos Certified"
                   />
                 </div>

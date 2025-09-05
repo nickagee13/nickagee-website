@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import studioImage from '../assets/GMR Mixing Full.jpeg'
 
 const HeroSection = () => {
   const handleBookClick = () => {
@@ -10,7 +11,7 @@ const HeroSection = () => {
     <section className="hero-section">
       <div className="hero-image-container">
         <img 
-          src="/src/assets/GMR Mixing Full.jpeg" 
+          src={studioImage} 
           alt="Nick Agee at the mixing console in recording studio" 
           className="studio-image"
         />

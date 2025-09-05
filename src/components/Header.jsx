@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import instagramLogo from '../assets/Logos/Instagram sq.png'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -52,7 +53,7 @@ const Header = () => {
             className="instagram-btn"
           >
             <img 
-              src="/src/assets/Logos/Instagram sq.png" 
+              src={instagramLogo} 
               alt="Instagram" 
               className="instagram-logo"
             />
