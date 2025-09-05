@@ -681,6 +681,10 @@
     text-align: center;
   }
   
+  .testimonials-section {
+    padding: 40px 0 30px 0;
+  }
+  
   .testimonials-container {
     margin: 0 10px;
   }
