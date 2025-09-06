@@ -159,17 +159,31 @@ App.jsx (router setup)
 ### Content Updates
 - Added real YouTube videos to post-production page:
   - Breakthrough For Men: 7OY1zB-cINQ, Ow_MAwSFHjk
+  - Hotchi Motchi MTG: cOPI4Kjwj-k
   - National Organization for Medical Intuition: cfHayN_Cm4A
-- Video embeds sized to 70% width for optimal viewing balance
+  - I Am A Nurse & The Lost Year: yOp6RQthNWg, SD4ytvMG2mg
+- Video embeds sized to 70% width (85% for single videos) for optimal viewing balance
+
+### Post-Production Page Improvements (January 2025)
+- Improved typography hierarchy: separated service types from brand names
+- Added italic project credits in Open Sans font (20px desktop, 18px mobile)
+- Centered single videos with their text sections for better alignment
+- Increased single video size to 85% for better prominence
+- Enhanced header section padding for cleaner appearance (40px 60px desktop)
+- Updated content: "Nurses & The Lost Year" → "I Am A Nurse & The Lost Year"
+
+### Layout & Visual Improvements (January 2025)
+- Fixed hero image positioning with object-position: center 25% to prevent head cropping
+- Tightened spacing between testimonials and music player (30px → 15px top padding)
+- All post-production videos now use real YouTube content (no more placeholders)
 
 ## Next Steps / Potential Improvements
 1. **About Page**: Replace placeholder bio with real content
-2. **Remaining Video Integration**: Add real videos for Hotchi Motchi MTG and Nurses & The Lost Year sections
-3. **Certification Display**: Add actual certification logos
-4. **Performance**: Consider image optimization and lazy loading for album artwork
-5. **SEO**: Add meta tags and structured data
-6. **Analytics**: Integrate Google Analytics or similar
-7. **Contact Form**: Consider adding functional contact form to About page
+2. **Certification Display**: Add actual certification logos
+3. **Performance**: Consider image optimization and lazy loading for album artwork
+4. **SEO**: Add meta tags and structured data
+5. **Analytics**: Integrate Google Analytics or similar
+6. **Contact Form**: Consider adding functional contact form to About page
 
 ## Git Status
 - All current changes committed
