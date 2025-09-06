@@ -42,7 +42,8 @@ const AudioPostProduction = () => {
             </div>
           </div>
           <div className="text-section">
-            <h2>Voiceover & Score Mixing<br/>Breakthrough For Men</h2>
+            <h2>Voiceover & Score Mixing</h2>
+            <div className="project-credit">Breakthrough For Men</div>
             <p>
               Captured and edited on-set dialogue, then mixed with underscore to 
               enhance the emotional tone of the visuals. Edited B-roll with interview 
@@ -55,7 +56,8 @@ const AudioPostProduction = () => {
         {/* Section 2: Podcast Audio Editing & Mixing - Hotchi Motchi MTG */}
         <div className="content-row">
           <div className="text-section">
-            <h2>Podcast Audio Editing & Mixing<br/>Hotchi Motchi MTG</h2>
+            <h2>Podcast Audio Editing & Mixing</h2>
+            <div className="project-credit">Hotchi Motchi MTG</div>
             <p>
               Collaborated with producers, hosts, and the video editor to elevate 
               podcast audio recorded in a sub-optimal environment to a 
@@ -64,7 +66,7 @@ const AudioPostProduction = () => {
               processing.
             </p>
           </div>
-          <div className="video-section">
+          <div className="video-section single-video">
             <div className="video-embed">
               <iframe 
                 width="100%" 
@@ -80,7 +82,7 @@ const AudioPostProduction = () => {
 
         {/* Section 3: Voiceover & Score Mixing - National Organization for Medical Intuition */}
         <div className="content-row">
-          <div className="video-section">
+          <div className="video-section single-video">
             <div className="video-embed">
               <iframe 
                 width="100%" 
@@ -93,7 +95,8 @@ const AudioPostProduction = () => {
             </div>
           </div>
           <div className="text-section">
-            <h2>Voiceover & Score Mixing<br/>National Organization for Medical Intuition</h2>
+            <h2>Voiceover & Score Mixing</h2>
+            <div className="project-credit">National Organization for Medical Intuition</div>
             <p>
               Edited and mixed multiple voiceover recordings with underscore music 
               to create a polished final audio mix that complements the professional 
@@ -107,7 +110,8 @@ const AudioPostProduction = () => {
         {/* Section 4: Voiceover & Score Mixing - Nurses & The Lost Year */}
         <div className="content-row">
           <div className="text-section">
-            <h2>Voiceover & Score Mixing<br/>Nurses & The Lost Year</h2>
+            <h2>Voiceover & Score Mixing</h2>
+            <div className="project-credit">I Am A Nurse & The Lost Year</div>
             <p>
               Captured and edited Voiceover dialogue, then mixed with 
               underscore to enhance the emotional tone of the visuals. Edited 

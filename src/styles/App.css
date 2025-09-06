@@ -485,7 +485,7 @@
 
 .page-header {
   margin-bottom: 60px;
-  padding: 20px 15px;
+  padding: 40px 60px;
   background-color: rgba(225, 202, 168, 0.95);
   border-radius: 8px;
 }
@@ -516,7 +516,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px;
-  align-items: start;
+  align-items: center;
   padding: 40px;
   background-color: rgba(225, 202, 168, 0.95);
   border-radius: 8px;
@@ -538,6 +538,11 @@
   gap: 20px;
 }
 
+.video-section.single-video {
+  justify-content: center;
+  align-items: center;
+}
+
 .video-embed {
   width: 70%;
   aspect-ratio: 16/9;
@@ -545,6 +550,10 @@
   overflow: hidden;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5), 0 6px 20px rgba(0, 0, 0, 0.25);
   margin: 0 auto;
+}
+
+.single-video .video-embed {
+  width: 85%;
 }
 
 .video-embed iframe {
@@ -555,7 +564,6 @@
 
 .text-section {
   padding-left: 40px;
-  align-self: center;
 }
 
 .content-row.reverse .text-section {
@@ -569,7 +577,16 @@
   font-weight: 400;
   color: var(--primary-color);
   line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+.project-credit {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  color: var(--text-secondary);
   margin-bottom: 20px;
+  font-weight: 400;
 }
 
 .text-section p {
@@ -669,8 +686,12 @@
     font-size: 28px;
   }
   
+  .project-credit {
+    font-size: 18px;
+  }
+  
   .page-header {
-    padding: 40px 20px;
+    padding: 30px 20px;
   }
   
   .page-header h1 {
