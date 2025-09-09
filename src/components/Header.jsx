@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import instagramLogo from '../assets/Logos/Instagram sq.png'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const location = useLocation()
+  const navigate = useNavigate()
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId)
@@ -18,7 +19,10 @@ const Header = () => {
     if (location.pathname === '/') {
       scrollToSection('music-player')
     } else {
-      window.location.href = '/#music-player'
+      navigate('/', { replace: false })
+      setTimeout(() => {
+        scrollToSection('music-player')
+      }, 100)
     }
   }
 
