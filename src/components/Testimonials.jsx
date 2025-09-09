@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 
 const Testimonials = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
+  const containerRef = useRef(null)
 
   const testimonials = [
     {
@@ -56,6 +57,28 @@ const Testimonials = () => {
     }
   ]
 
+  // Adjust bottom padding based on content height
+  const adjustPadding = () => {
+    if (containerRef.current) {
+      const currentTestimonialSlide = containerRef.current.children[0].children[currentSlide]
+      if (currentTestimonialSlide) {
+        const testimonialContent = currentTestimonialSlide.querySelector('.testimonial-content')
+        if (testimonialContent) {
+          const contentHeight = testimonialContent.scrollHeight
+          // Calculate padding: shorter content gets more padding, longer content gets less
+          // Base padding of 40px, reduced by 1px for every 10px of content height over 200px
+          const basePadding = 40
+          const heightThreshold = 200
+          const paddingReduction = Math.max(0, (contentHeight - heightThreshold) / 10)
+          const bottomPadding = Math.max(10, basePadding - paddingReduction)
+          
+          console.log(`Testimonial ${currentSlide + 1}: height=${contentHeight}px, padding=${bottomPadding}px`)
+          currentTestimonialSlide.style.paddingBottom = `${bottomPadding}px !important`
+        }
+      }
+    }
+  }
+
   // Auto-rotate testimonials every 8 seconds
   useEffect(() => {
     const interval = setInterval(() => {
@@ -64,6 +87,17 @@ const Testimonials = () => {
 
     return () => clearInterval(interval)
   }, [testimonials.length])
+
+  // Adjust padding when slide changes
+  useEffect(() => {
+    // Small delay to ensure DOM is updated
+    setTimeout(adjustPadding, 50)
+  }, [currentSlide])
+
+  // Initial padding adjustment on mount
+  useEffect(() => {
+    setTimeout(adjustPadding, 100)
+  }, [])
 
   const goToSlide = (index) => {
     setCurrentSlide(index)
@@ -85,7 +119,7 @@ const Testimonials = () => {
             <span>‹</span>
           </button>
           
-          <div className="testimonials-container">
+          <div className="testimonials-container" ref={containerRef}>
             <div 
               className="testimonials-track"
               style={{ transform: `translateX(-${currentSlide * 100}%)` }}

@@ -730,6 +730,11 @@
     padding: 0 15px 20px 15px;
   }
   
+  /* Allow JavaScript to override bottom padding */
+  .testimonial-slide[style*="padding-bottom"] {
+    padding-bottom: unset !important;
+  }
+  
   .testimonial-content {
     margin: 0;
   }
