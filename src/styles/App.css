@@ -297,7 +297,7 @@
   padding: 30px;
   border-radius: 25px;
   position: relative;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5), 0 6px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.25), 0 3px 10px rgba(0, 0, 0, 0.125);
   margin: 0 20px;
 }
 
@@ -721,15 +721,21 @@
   }
   
   .testimonials-container {
-    margin: 0 10px;
+    margin: 0;
+    padding: 0 2px;
+    overflow: hidden;
   }
   
   .testimonial-slide {
-    padding: 0 30px 60px 30px;
+    padding: 0 15px 20px 15px;
   }
   
   .testimonial-content {
     margin: 0;
+  }
+  
+  .testimonial-content blockquote {
+    font-size: 14px;
   }
   
   .slider-arrow {
