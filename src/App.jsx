@@ -6,6 +6,7 @@ import ScrollToTop from './components/ScrollToTop'
 import LandingPage from './pages/LandingPage'
 import About from './pages/About'
 import AudioPostProduction from './pages/AudioPostProduction'
+import FreelancePortalLanding from './pages/FreelancePortalLanding'
 import './styles/App.css'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Route path="/" element={<LandingPage />} />
             <Route path="/about" element={<About />} />
             <Route path="/post-production" element={<AudioPostProduction />} />
+            <Route path="/templates/freelance-portal" element={<FreelancePortalLanding />} />
           </Routes>
         </main>
         <Footer />
