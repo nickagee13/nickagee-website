@@ -189,13 +189,14 @@ p {
 }
 
 .videos-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 1.5rem;
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
   width: 100%;
-  justify-items: center;
+  flex-wrap: wrap;
 }
 
 .video-item {

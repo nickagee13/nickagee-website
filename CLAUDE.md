@@ -38,6 +38,13 @@ Professional studio engineer website rebuilt from Wix to modern React applicatio
 ├── Hotchi Motchi MTG podcast example
 ├── National Organization for Medical Intuition video (real content)
 ├── Nurses & The Lost Year examples
+
+/templates/freelance-portal (Hidden Landing Page)
+├── Hero Section (template image + pricing + CTA)
+├── Video Tutorials (3 YouTube embeds)
+├── Template Screenshots Gallery (6 images with lightbox)
+├── Creator Information Section
+└── Final CTA with coupon code
 ```
 
 ## Key External Links
@@ -45,6 +52,7 @@ Professional studio engineer website rebuilt from Wix to modern React applicatio
 - **Instagram**: https://www.instagram.com/nickagee13/
 - **Discography**: https://credits.muso.ai/profile/399ac1a7-3ea7-4533-8090-ba04d15e3f38
 - **Spotify Playlist**: Embedded with playlist ID: 0SeBZbT1pjfaT1X7D10Fdx
+- **Notion Template**: https://www.notion.so/templates/freelance-portal-dashboard
 
 ## Design System
 
@@ -76,6 +84,10 @@ Professional studio engineer website rebuilt from Wix to modern React applicatio
 src/assets/
 ├── GMR Mixing Full.jpeg (hero section image)
 ├── gmr studio.jpg (about page image)
+├── notion/
+│   └── freelance-portal-dashboard/
+│       ├── carousel/ (6 template showcase images)
+│       └── covers/ (5 feature-specific screenshots)
 └── Logos/
     ├── Instagram sq.png (55x55px in header)
     └── Notion_app_logo.png
@@ -97,7 +109,8 @@ App.jsx (router setup)
     │   ├── Testimonials.jsx (auto-rotating every 8s)
     │   └── MusicPlayer.jsx (Spotify + Book Now button)
     ├── About.jsx
-    └── AudioPostProduction.jsx
+    ├── AudioPostProduction.jsx
+    └── FreelancePortalLanding.jsx (hidden product landing page)
 ```
 
 ## Responsive Breakpoints
@@ -176,6 +189,16 @@ App.jsx (router setup)
 - Fixed hero image positioning with object-position: center 25% to prevent head cropping
 - Tightened spacing between testimonials and music player (30px → 15px top padding)
 - All post-production videos now use real YouTube content (no more placeholders)
+
+### Freelance Portal Landing Page (September 2025)
+- Added hidden landing page at `/templates/freelance-portal` for Meta ads campaigns
+- Implemented clean Notion-style design with professional blue CTAs (#2383e2)
+- Created responsive video tutorials section with 3 YouTube embeds (320x180px)
+- Integrated template screenshots gallery with lightbox functionality (6 carousel + 5 feature images)
+- Added pricing section with $8 one-time pricing and 20% off coupon code (FREELANCE20)
+- Implemented side-by-side coupon + CTA button layout for better conversion
+- Mobile-first responsive design with proper centering and overflow prevention
+- Links to Notion template marketplace: https://www.notion.so/templates/freelance-portal-dashboard
 
 ## Next Steps / Potential Improvements
 1. **About Page**: Replace placeholder bio with real content
