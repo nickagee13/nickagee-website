@@ -212,6 +212,7 @@ App.jsx (router setup)
 - All current changes committed
 - Ready for deployment
 - Working tree clean
+- Fixed custom domain deployment configuration
 
 ## Notes
 - Custom fonts load from local files (not CDN)
